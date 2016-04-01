@@ -443,7 +443,6 @@ class PppoeNetworkFactory {
         LOG("dns2="+dns2);
         LOG("password="+password);
 
-try{throw new Exception();}catch(Exception e){e.printStackTrace();}
         mPhyIface = iface;
 
         if (user==null || iface==null || password==null) return false;
